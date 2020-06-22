@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(53, 185, 49, 0.5);
+}
+
+h1 {
+    font-family: Broadway;
+    color: rgb(233, 74, 0);
+}
+
+h3 {
+    font-family: Broadway;
+    color: rgb(233, 74, 0);
+}
+
+div {
+    font-family: Leelawadee;
+    color: rgb(18, 18, 83);
+}
+
+#menuBG {
+    width: 480px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 480px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 160px;
+    height: 200px;
+    float: left;
+}
+
+.center {
+    width: 160px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 160px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top:0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 140px;
+    width: 100px;
+    height: 30px;
+}
+

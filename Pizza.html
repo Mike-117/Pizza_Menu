@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Pizza Menu</title>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html"; charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" type="text/css" href="css/Pizza.css">
+        
+</head>
+<body>
+
+    <div id="menuBG">
+        <h1 style="margin: 0 0px 0 100px;">Pizza Menu</h1>
+        <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
+        
+        <form id="frmMenu">
+            <div class="menu left">
+                <h3>Size:</h3>
+                <input class="size" type="radio" name="Size" value="A Slice of Pizza"> Pizza Slice<br>
+                <input class="size" type="radio" name="Size" value="A Small Pizza"> Small Pizza<br>
+                <input class="size" type="radio" name="Size" value="A Medium Pizza"> Medium Pizza<br>
+                <input class="size" type="radio" name="Size" value="A Large Pizza"> Large Pizza<br>
+                <input class="size" type="radio" name="Size" value="An Xtra Large Pizza"> Xtra Large Pizza<br>
+            </div>
+
+            <div class="menu center">
+                <h3>Meats: </h3>
+                <input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+                <input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage<br>
+                <input class="meats" type="checkbox" name="Meat" value="Ham"> Ham<br>
+                <input class="meats" type="checkbox" name="Meat" value="Bacon"> Bacon<br>
+                <input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+                <input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br> 
+                <input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+            </div>
+
+            <!-- I suppose I could have changed the class to "toppings," but that would have required me to rewrite much of the js code. This way I only change the html and css. --> 
+            <div class="menu right">
+                <h3>Veggies: </h3>
+                <input class="meats" type="checkbox" name="Meat" value="Onions"> Onions<br>
+                <input class="meats" type="checkbox" name="Meat" value="Peppers"> Peppers<br>
+                <input class="meats" type="checkbox" name="Meat" value="Mushrooms"> Mushrooms<br>
+                <input class="meats" type="checkbox" name="Meat" value="Black Olives"> Black Olives<br>
+                <input class="meats" type="checkbox" name="Meat" value="Dried Tomatoes"> Dried Tomatoes<br>
+                <input class="meats" type="checkbox" name="Meat" value="Pinapple"> Pinapple<br>
+                <input class="meats" type="checkbox" name="Meat" value="Jalapenos"> Jalapenos<br>
+            </div>
+            <div id="cart">
+                <div id="showText"></div>
+                <div id="totalPrice"></div>
+            </div>
+        </form>
+    </div>
+    <script src="js/Pizza.js"></script>
+    </body>
+</html>
